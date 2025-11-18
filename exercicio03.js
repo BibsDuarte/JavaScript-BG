@@ -8,4 +8,4 @@ if(numero2 == 0){
     console.log(" O Número é Par")
 }else{
     console.log("O Número é Ímpar")
-}
+} 
