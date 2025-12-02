@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 03</title>
+</head>
+<body>
+    
+<!--Exercicio 03
+Faça uma funcionalidade que feche a página, opção de
+voltar,opção de mostrar sua localização-->
+
+
+<h1>exercicio 03</h1>
+<button onclick="voltarapagina()">voltar</button>
+<button onclick="mostrarlocalizacao()">mostrar a localização</button>
+<button onclick="fecharpagina()">fechar a pagina</button>
+
+</body>
+
+<script>
+      function voltarapagina(){
+        //voltar a pagina do navegador 
+        window.history.back()
+      }
+
+      function mostrarlocalizacao(){
+        //mostrar URL onde esta a pagina
+        alert("sua pagina esta localizada:" + window.location)
+      }
+
+      function fecharpagina(){
+        //fechar a janela do navegador
+        window.close
+      }
+    
+
+</script>
+</html>
