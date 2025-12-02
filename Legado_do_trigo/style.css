@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: var(--branco);
+    --preto: ;
+    --fundo-site: ;
+}
+
+.espaco_lateral {
+    width: 80vw;
+    max-width: 1400vw;
+    margin: 0 auto;
+}
+
+
+/* -------------------Menu---------------------- */
+header {
+    height: 165px;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    width: 155px;
+}
+
+.menu {
+    max-width: 700px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+
+    font-family: "Roboto Slab", sans-serif;
+}
+
+.menu a:hover {
+    color: #FBB03B;
+}
+
+/*------------- Responsividade------------------*/
+@media screen and(max-width: 768px) {
+    #sombra {
+        background-color: ;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        right: -101vw;
+        transition: .5s;
+    }
+
+#menu_botao {
+    display: block;
+    z-index: 1;
+}
+
+
+
+}
